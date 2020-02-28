@@ -115,7 +115,7 @@ function init() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(image96561,button96678,button96726,button410696,button410690,button410684,button410678,text429337,text416787,og87188,shape97098,shape401436,shape402565,shape402638,text330139,progress340007,text428924,video419580,image419582,shape419587,text419591,shape419593,text419594,text419595,shape424487))
+    PreloadResources(new Array(image96561,button96678,button96726,button410696,button410690,button410684,button410678,text429337,text416787,og87188,shape97098,shape401436,shape402565,shape402638,text330139,progress340007,text428924,video419580,image419582,shape419587,text419591,shape419593,text419594,text419595))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     image96561.init()
@@ -142,7 +142,6 @@ function init() {
     shape419593.init()
     text419594.init()
     text419595.init()
-    shape424487.init()
     image96561.activate()
     button96678.activate()
     button96726.activate()
@@ -167,7 +166,6 @@ function init() {
     shape419593.activate()
     text419594.activate()
     text419595.activate()
-    shape424487.activate()
     window.scrollTo(0,1);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
     if(titleManagerIndexWindow)titleManagerIndexWindow.scrollTo(0,1);
@@ -431,7 +429,7 @@ function setPlayerMute(plrObj, bMute){
 }
 
 if( is.min ){
-image96561 = new ObjImage('image96561','images/oehexitbackground.png','',0,-7,1009,728,0,36,'div',null, 0 )
+image96561 = new ObjImage('image96561','images/oehexitbackground.png','',0,-7,1009,728,0,35,'div',null, 0 )
 image96561.initRotateAngle(0,0,0,0,0,0,0)
 image96561.initHasShadow(0)
 image96561.initHasReflection(0)
@@ -441,7 +439,7 @@ image96561.addBorder(0)
 image96561.addOpacity(100)
 image96561.build()
 
-button96678 = new ObjButton('button96678', 'YesExitButton',370,370,121.00,44.00,0,37,'div','',1,0)
+button96678 = new ObjButton('button96678', 'YesExitButton',370,370,121.00,44.00,0,36,'div','',1,0)
 button96678.setUseSvgFile(1)
 button96678.setFillStyle(4)
 button96678.setUniqueFillID('a001_xyz_keys_video_1_button96678')
@@ -462,7 +460,7 @@ button96678.hasOnUp = true
 button96678.capture=4
 button96678.build()
 
-button96726 = new ObjButton('button96726', 'NoExitButton',500,370,121.00,44.00,0,38,'div','',1,0)
+button96726 = new ObjButton('button96726', 'NoExitButton',500,370,121.00,44.00,0,37,'div','',1,0)
 button96726.setUseSvgFile(1)
 button96726.setFillStyle(4)
 button96726.setUniqueFillID('a001_xyz_keys_video_1_button96726')
@@ -483,7 +481,7 @@ button96726.hasOnUp = true
 button96726.capture=4
 button96726.build()
 
-button410696 = new ObjButton('button410696', 'Home',468,0,113.00,51.00,1,39,'div','',1,0)
+button410696 = new ObjButton('button410696', 'Home',468,0,113.00,51.00,1,38,'div','',1,0)
 button410696.setUseSvgFile(1)
 button410696.setFillStyle(0)
 button410696.setUniqueFillID('a001_xyz_keys_video_1_button410696')
@@ -504,7 +502,7 @@ button410696.hasOnUp = true
 button410696.capture=4
 button410696.build()
 
-button410690 = new ObjButton('button410690', 'Help',583,0,97.00,51.00,1,40,'div','',1,0)
+button410690 = new ObjButton('button410690', 'Help',583,0,97.00,51.00,1,39,'div','',1,0)
 button410690.setUseSvgFile(1)
 button410690.setFillStyle(1)
 button410690.setUniqueFillID('a001_xyz_keys_video_1_button410690')
@@ -525,7 +523,7 @@ button410690.hasOnUp = true
 button410690.capture=4
 button410690.build()
 
-button410684 = new ObjButton('button410684', 'Resources',685,0,163.00,51.00,1,41,'div','',1,0)
+button410684 = new ObjButton('button410684', 'Resources',685,0,163.00,51.00,1,40,'div','',1,0)
 button410684.setUseSvgFile(1)
 button410684.setFillStyle(1)
 button410684.setUniqueFillID('a001_xyz_keys_video_1_button410684')
@@ -546,7 +544,7 @@ button410684.hasOnUp = true
 button410684.capture=4
 button410684.build()
 
-button410678 = new ObjButton('button410678', 'Exit',847,0,163.00,51.00,1,42,'div','',1,0)
+button410678 = new ObjButton('button410678', 'Exit',847,0,163.00,51.00,1,41,'div','',1,0)
 button410678.setUseSvgFile(1)
 button410678.setFillStyle(1)
 button410678.setUniqueFillID('a001_xyz_keys_video_1_button410678')
@@ -567,7 +565,7 @@ button410678.hasOnUp = true
 button410678.capture=4
 button410678.build()
 
-text429337 = new ObjText('text429337',null,73,570,196,38,1,43,null,'div',null,0 )
+text429337 = new ObjText('text429337',null,73,570,196,38,1,42,null,'div',null,0 )
 text429337.initSLine(1)
 text429337.initHasBullet(0)
 text429337.initRotateAngle(0,0,0)
@@ -581,7 +579,7 @@ text429337.addOpacity(100)
 text429337.arrCSSStyles = new Array();
 text429337.arrCSSStyles.push('span.text429337Font1 { font-size:21px; font-family:"Calibri", sans-serif; color:#0000ff; text-decoration:underline;}');
 text429337.arrCSSStyles.push('span.text429337Font2 { font-size:24px; font-family:"Calibri", sans-serif; color:#010101;}');
-text429337.addInnerText('<div id=\"text429337\"><a id=\"text429337anc\" tabindex=\"43\"style=\"display:block;height:0px;width:0px;\"></a>\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<a href=\"javascript:var newWnd=ObjLayerActionGoToNewWindow(\'Removing_the_key.pdf\',\'Trivantis_\',\'width=1009,height=662,scrollbars=1,resizable=1,menubar=1,toolbar=1,location=1,status=1\'); \"  ><span class=\"text429337Font1\"  >Removing_the_key.pdf</span></a ><span class=\"text429337Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text429337.addInnerText('<div id=\"text429337\"><a id=\"text429337anc\" tabindex=\"42\"style=\"display:block;height:0px;width:0px;\"></a>\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<a href=\"javascript:var newWnd=ObjLayerActionGoToNewWindow(\'Removing_the_key.pdf\',\'Trivantis_\',\'width=1009,height=662,scrollbars=1,resizable=1,menubar=1,toolbar=1,location=1,status=1\'); \"  ><span class=\"text429337Font1\"  >Removing_the_key.pdf</span></a ><span class=\"text429337Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text429337.build()
 
 text416787 = new ObjText('text416787',null,20,10,188,44,1,8,null,'div',null,0 )
@@ -691,7 +689,7 @@ progress340007 = new ObjProgress('progress340007','',643,630,198,21,1,19,1,14,'#
 progress340007.actionSetPos(9)
 progress340007.build()
 
-text428924 = new ObjText('text428924',null,54,507,245,100,1,15,'#fdf1d5','div',null,0 )
+text428924 = new ObjText('text428924',null,33,488,259,77,1,15,'#fdf1d5','div',null,0 )
 text428924.initSLine(0)
 text428924.initHasBullet(0)
 text428924.initRotateAngle(0,0,0)
@@ -700,7 +698,7 @@ text428924.initHasTextShadow(0)
 text428924.initHasBorder(1)
 text428924.initHasOutline(0)
 text428924.initHasMargin(10)
-text428924.addIe8Attr(54, 507, 245, 100, 0, 0)
+text428924.addIe8Attr(33, 488, 259, 77, 0, 0)
 text428924.addBorder(1,0,0,0,0,'')
 text428924.addOpacity(100)
 text428924.arrCSSStyles = new Array();
@@ -774,7 +772,7 @@ shape419593.initLineWeight(0)
 shape419593.addOpacity(100)
 shape419593.build()
 
-text419594 = new ObjText('text419594',null,55,147,363,44,1,21,null,'div',null,0 )
+text419594 = new ObjText('text419594',null,36,147,363,44,1,21,null,'div',null,0 )
 text419594.initSLine(1)
 text419594.initHasBullet(0)
 text419594.initRotateAngle(0,0,0)
@@ -783,7 +781,7 @@ text419594.initHasTextShadow(0)
 text419594.initHasBorder(0)
 text419594.initHasOutline(0)
 text419594.initHasMargin(0)
-text419594.addIe8Attr(55, 147, 363, 44, 0, 0)
+text419594.addIe8Attr(36, 147, 363, 44, 0, 0)
 text419594.addOpacity(100)
 text419594.arrCSSStyles = new Array();
 text419594.arrCSSStyles.push('span.text419594Font1 { font-size:32px; font-family:"Calibri", sans-serif; color:#df4c1d; font-weight:bold;}');
@@ -805,22 +803,8 @@ text419595.addOpacity(100)
 text419595.arrCSSStyles = new Array();
 text419595.arrCSSStyles.push('span.text419595Font7 { font-size:21px; font-family:"Calibri", sans-serif; color:#df4c1d; font-weight:bold;}');
 text419595.arrCSSStyles.push('span.text419595Font8 { font-size:21px; font-family:"Calibri", sans-serif; color:#000000;}');
-text419595.addInnerText('<div id=\"text419595\"><a id=\"text419595anc\" tabindex=\"22\"style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.490\" style=\"margin-left:0px;text-indent:0px;line-height:1.490;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text419595Font7\" style=\"position:relative;top:-2px;\" >Click </span ><span class=\"text419595Font8\" style=\"position:relative;top:-2px;\" >on the</span ><span class=\"text419595Font7\" style=\"position:relative;top:-2px;\" > Play &nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text419595Font8\" style=\"position:relative;top:-2px;\" >button</span ><span class=\"text419595Font7\" style=\"position:relative;top:-2px;\" > </span ><span class=\"text419595Font8\" style=\"position:relative;top:-2px;\" >to watch this video to learn more about the procedure for </span ><span class=\"text419595Font7\" style=\"position:relative;top:-2px;\" >removing </span ><span class=\"text419595Font8\" style=\"position:relative;top:-2px;\" >an X, Y or Z Key.\n</span ></p >\n</div>\n');
+text419595.addInnerText('<div id=\"text419595\"><a id=\"text419595anc\" tabindex=\"22\"style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.490\" style=\"margin-left:0px;text-indent:0px;line-height:1.490;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text419595Font7\" style=\"position:relative;top:-2px;\" >Click </span ><span class=\"text419595Font8\" style=\"position:relative;top:-2px;\" >on the</span ><span class=\"text419595Font7\" style=\"position:relative;top:-2px;\" > Play </span ><span class=\"text419595Font8\" style=\"position:relative;top:-2px;\" >button</span ><span class=\"text419595Font7\" style=\"position:relative;top:-2px;\" > </span ><span class=\"text419595Font8\" style=\"position:relative;top:-2px;\" >to watch this video to learn more about the procedure for </span ><span class=\"text419595Font7\" style=\"position:relative;top:-2px;\" >removing </span ><span class=\"text419595Font8\" style=\"position:relative;top:-2px;\" >an X, Y or Z Key.\n</span ></p >\n</div>\n');
 text419595.build()
-
-shape424487 = new ObjImage('shape424487','images/shape424487.png','Triangle',210,234,18.00,26.00,1,23,'div','',0 )
-shape424487.initRotateAngle(0,0,0,-1.00,-1.00,16,24)
-shape424487.initHasShadow(0)
-shape424487.initHasReflection(0)
-shape424487.setUniqueFillID('a001_xyz_keys_video_1_shape424487')
-shape424487.addIe8Attr(210.00, 234.00, 18.00, 26.00, 0, 0)
-shape424487.initImageMap(1,'17,13,1,25,1,1,17,13','M 17.00 13.00 L 1.00 25.00 L 1.00 1.00 L 17.00 13.00 z', '', 'stroke:#FFFFFF; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:#F57A20;"' , '')
-shape424487.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAaCAYAAAC6nQw6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYSURBVEhLYxgFo2AUjIJRMApGAc0AAwMAB2oAAfZb3O4AAAAASUVORK5CYII=' , 'fill:url(#Text_a001_xyz_keys_video_1_shape424487)')
-shape424487.setUseSvgFile(1)
-shape424487.addBorder(0)
-shape424487.initLineWeight(1)
-shape424487.addOpacity(100)
-shape424487.build()
 
 arObjs.push(image96561);
 arObjs.push(button96678);
@@ -846,7 +830,6 @@ arObjs.push(text419591);
 arObjs.push(shape419593);
 arObjs.push(text419594);
 arObjs.push(text419595);
-arObjs.push(shape424487);
 
 
 writeStyleSheets(arObjs);}
@@ -897,7 +880,6 @@ if( is.min ){
     appendElement(shape419593, null, null);
     appendElement(text419594, null, null);
     appendElement(text419595, null, null);
-    appendElement(shape424487, null, null);
 }
 </script>
 
